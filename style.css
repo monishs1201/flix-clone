@@ -1,0 +1,628 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #221f1f;
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2),rgba(0,0,0,0.8)) ,url("images/header-image.png");
+    background-size:cover;    
+    background-position:center;
+    width: 100%;
+    height: 70vh;
+}
+.nav{
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+}
+.logo img{
+    width:150px;
+    padding: 15px 20px;
+}
+.drop{
+    width: 40px;
+    padding: 10px 35px;
+    border:1px solid gray;
+    border-radius:5px;
+    background: transparent;
+    color:white;
+    outline:none;
+}
+.sign-in{
+    padding:10px 15px ;
+    background:#E50914;
+    border:none;
+    border-radius:5px;
+    margin:15px 20px;
+}
+.sign-in a{
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+}
+.content{
+    width:100%;
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.bold{
+    color:white;
+    font-size:60px;
+    font-weight:900;
+    text-align:center;
+}
+.simple-1{
+    color:white;
+    font-size:25px;
+    margin-top:-10px;
+    text-align:center;
+}
+.simple-2{
+    color:white;
+    font-size:22px;
+    padding:0 30px 0 30px;
+    line-height:30px;
+    text-align:center;
+}
+.email{
+    width: 400px;
+    height: 55px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    border:1px solid gray;
+    border-radius:5px;    
+}
+.input{
+    flex:1;
+    border:none;
+    outline:none;
+    background: rgba(0,0,0,0.7);
+    border-radius:5px;
+    padding:10px 20px;
+    color:white;
+    font-size:15px;
+}
+.input:focus{
+    outline:1px solid white;
+}
+.mail-btn{
+    color:white;
+    border:none;
+    font-size:18px;
+    font-weight:bold;
+    background:#E50914 ;
+    padding:15px 25px;
+    border-radius:5px;
+    margin:20px 0 35px 0;
+}
+::placeholder{
+    color:rgba(255,255,255,0.7);
+}
+.mid-1{
+    margin-top:10px;
+    width:100%;
+    height:100%;
+    background: black;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.title-1{
+    color:white;
+    font-size:52px;
+    font-weight:800;
+    text-align:center;   
+}
+.para-1{
+    color:white;
+    font-size:25px;
+    text-align:center;
+    padding:0 30px ;
+    margin-top:-10px;
+}
+.tv{
+    width:550px;
+}
+.mid-2{
+    margin-top:10px;
+    width:100%;
+    height:100%;
+    background: black;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.title-2{
+    color:white;
+    font-size:52px;
+    font-weight:800;
+    text-align:center;   
+}
+.para-2{
+    color:white;
+    font-size:25px;
+    text-align:center;
+    padding:0 30px ;
+    margin-top:-10px;
+}
+.mobile{
+    width:550px;
+}
+.mid-3{
+    margin-top:10px;
+    width:100%;
+    height:100%;
+    background: black;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.title-3{
+     color:white;
+    font-size:52px;
+    font-weight:800;
+    text-align:center;   
+}
+.para-3{
+       color:white;
+    font-size:25px;
+    text-align:center;
+    padding:0 30px ;
+    margin-top:-10px;
+}
+.lap{
+    width:550px;
+}
+.mid-4{
+    margin-top:10px;
+    width:100%;
+    height:100%;
+    background: black;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.title-4{
+     color:white;
+    font-size:52px;
+    font-weight:800;
+    text-align:center;   
+}
+.para-4{
+       color:white;
+    font-size:25px;
+    text-align:center;
+    padding:0 30px ;
+    margin-top:-10px;
+}
+.kids{
+    width:320px;
+}
+.faq{
+    width:100%;
+    height: 100%;
+    background: black;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:10px;
+}
+.mail-btn2{
+     color:white;
+    border:none;
+    font-size:18px;
+    font-weight:500;
+    background:#E50914 ;
+    padding:12px 22px;
+    border-radius:5px;
+    margin:20px;
+}
+.heading{
+    color:white;
+    font-size:52px;
+    font-weight:800;
+    text-align:center;   
+}
+.box{
+    width:1100px ;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    }
+.q1{
+    width: 100%;
+    height: 75px;
+    background: #221f1f;
+    margin-top:10px;
+    border-bottom:2px solid black;
+}
+.q1 p{
+    color:white;
+    font-size:25px;
+    text-align:center;
+}
+.add1{
+  color:white;
+  float:right;
+  font-size:55px;
+  cursor: pointer;
+  font-weight:100;
+  padding:5px 20px 5px 0;
+}
+.cont-1{
+    width: 100%;
+    background: #221f1f;
+    display:none;
+}
+.cont-1 p{
+    text-align:left;
+    padding:10px 25px;
+    font-size: 25px;
+    color:white;
+}
+
+.q2{
+    width: 100%;
+    height: 75px;
+    background: #221f1f ;
+    margin-top:10px;
+    border-bottom:2px solid black;
+}
+.q2 p{
+    color:white;
+    font-size:25px;
+    text-align:center;
+}
+.add2{
+   color:white;
+  float:right;
+  font-size:55px;
+  cursor: pointer;
+  font-weight:100;
+  padding:5px 20px 5px 0;
+}
+.cont-2{
+    width: 100%;
+    background: #221f1f;
+    display:none;
+}
+.cont-2 p{
+    text-align:left;
+    font-size: 25px;
+    padding:15px 25px;
+    color:white;
+}
+.q3{
+    width: 100%;
+    height: 75px;
+    background: #221f1f ;
+    margin-top:10px;
+    border-bottom:2px solid black;
+}
+.q3 p{
+    color:white;
+    font-size:25px;
+    text-align:center;
+}
+.add3{
+   color:white;
+  float:right;
+  font-size:55px;
+  cursor: pointer;
+  font-weight:100;
+  padding:5px 20px 5px 0;
+}
+.cont-3{
+    width: 100%;
+    background: #221f1f;
+    display:none;
+}
+.cont-3 p{
+    text-align:left;
+    padding:15px 25px;
+    font-size: 25px;
+    color:white;
+}
+
+.q4{
+    width: 100%;
+    height: 75px;
+    background: #221f1f ;
+    margin-top:10px;
+    border-bottom:2px solid black;
+}
+.q4 p{
+    color:white;
+    font-size:25px;
+    text-align:center;
+}
+.add4{
+   color:white;
+  float:right;
+  font-size:55px;
+  cursor: pointer;
+  font-weight:100;
+  padding:5px 20px 5px 0;
+}
+.cont-4{
+    width: 100%;
+    background: #221f1f;
+    display:none;
+}
+.cont-4 p{
+    text-align:left;
+    padding:15px 25px;
+    font-size: 25px;
+    color:white;
+}
+
+.q5{
+    width: 100%;
+    height: 75px;
+    background: #221f1f ;
+    margin-top:10px;
+    border-bottom:2px solid black;
+}
+.q5 p{
+    color:white;
+    font-size:25px;
+    text-align:center;
+}
+.add5{
+   color:white;
+  float:right;
+  font-size:55px;
+  cursor: pointer;
+  font-weight:100;
+  padding:5px 20px 5px 0;
+}
+.cont-5{
+    width: 100%;
+    background: #221f1f;
+    display:none;  
+}
+.cont-5 p{
+    text-align:left;
+    padding:15px 25px;
+    color:white;
+}
+
+.q6{
+    width: 100%;
+    height: 75px;
+    background: #221f1f ;
+    margin-top:10px;
+    border-bottom:2px solid black;
+    
+}
+.q6 p{
+    color:white;
+    font-size:25px;
+    text-align:center;
+}
+.add6{
+   color:white;
+  float:right;
+  font-size:55px;
+  cursor: pointer;
+  font-weight:100;
+  padding:5px 20px 5px 0;
+}
+.cont-6{
+    width: 100%;
+    background: #221f1f;
+    display:none;
+}
+.cont-6 p{
+    text-align:left;
+    padding:15px 25px;
+    font-size: 25px;
+    color:white;
+}
+.active{
+    display:block;
+}
+.footer{
+    background: black;
+    width: 100%;
+    height: auto;
+}
+.footer p{
+    color:rgba(255,255,255,0.7);
+    font-size: 16px;
+    padding:35px;
+}
+.footer a{
+    color:rgba(255,255,255,0.7);
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer ul li{
+    list-style:none;
+    line-height:40px;
+}
+.footer ul li a{
+    color:rgba(255,255,255,0.7);
+    font-size: 18px;
+}
+.footer select{
+    padding: 10px 20px;
+    color:white;
+    background: black;
+    border:1px solid gray;
+    margin:10px 40px;
+}
+.copyrights{
+    color:rgba(255,255,255,0.7);
+    margin-top:-25px;
+}
+@media (width<=580px){
+    .head{
+        height: 100%;
+    }
+    .logo img{
+        width:100px;
+        padding: 15px 20px;
+    }
+    .drop{
+        width: 40px;
+        padding: 5px 25px;
+    }
+    .sign-in{
+        padding:7px 12px ;
+    }
+    .bold{
+        font-size:35px;
+    }
+    .simple-1{
+        font-size:18px;
+    }
+    .simple-2{
+        font-size:16px;
+    }
+    .email{
+        width: 300px;
+        height: 45px;    
+    }
+    .mail-btn{
+        font-size:16px;
+        padding:12px 22px;
+    }
+    .title-1{
+        font-size:32px;
+    }
+    .para-1{
+        font-size:18px;
+    }
+    .tv{
+        width:350px;
+    }
+    .title-2{
+        font-size:32px;
+    }
+    .para-2{
+        font-size:18px;
+    }
+    .mobile{
+        width:350px;
+    }
+    .title-3{
+       font-size:32px;
+   }
+   .para-3{
+       font-size:18px;
+   }
+   .lap{
+       width:350px;
+   }
+   .title-4{
+   font-size:32px;
+}
+.para-4{
+   font-size:18px;
+}
+.kids{
+   width:320px;
+}
+.heading{
+    font-size:32px;  
+}
+   .box{
+    width:400px ;
+    }
+    .q1{
+        width: 100%;
+        height: 60px;
+    }
+    .q1 p{
+        font-size:18px;
+    }
+    .add1{
+      font-size:35px;
+    }
+    .cont-1 p{
+        font-size: 18px;
+    }   
+    .q2{
+        width: 100%;
+        height: 60px;
+    }
+    .q2 p{
+        font-size:18px;
+    }
+    .add2{
+      font-size:40px;
+    }
+    .cont-2 p{
+        font-size: 18px;
+    }
+    .q3{
+        width: 100%;
+        height: 60px;
+    }
+    .q3 p{
+        font-size:18px;
+    }
+    .add3{
+      font-size:40px;
+    }
+    .cont-3 p{
+        font-size: 18px;
+    }
+    .q4{
+        width: 100%;
+        height: 60px;
+    }
+    .q4 p{
+        font-size:18px;
+    }
+    .add4{
+      font-size:40px;
+    }
+    .cont-4 p{
+        font-size: 18px;
+    }
+    
+    .q5{
+        width: 100%;
+        height: 60px;
+    }
+    .q5 p{
+        font-size:18px;
+    }
+    .add5{
+      font-size:40px;
+    }
+    .cont-5 p{
+        text-align:left;
+        padding:15px 25px;
+        font-size: 18px;
+        color:white;
+    }
+    .q6{
+        width: 100%;
+        height: 60px;
+    }
+    .q6 p{
+        font-size:18px;
+    }
+    .add6{
+      font-size:40px;
+    }
+    .cont-6 p{
+        font-size: 18px;
+    }
+    .footer ul{
+        display: block;
+    }
+}

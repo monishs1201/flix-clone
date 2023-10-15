@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: 'Poppins', sans-serif;
+}
+.top{
+    width: 100%;
+    height: 100%;
+}
+.logo img{
+    width:150px;
+    padding:20px;
+}
+.wrapper{
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.write{
+    font-size:40px;
+    font-weight:600;
+    color:white;
+    margin:0 0px 20px 25px;
+        
+}
+form{
+   width:350px;
+   height: 100%;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+}
+.email{
+    width:100%;
+    display:flex;
+    background: #221f1f;
+    border-radius:5px;
+    align-items:center;
+}
+.mail{
+    width:100%;
+    height: 40px;
+    border-radius:5px;
+    background: transparent;
+    border: none;
+    outline:none;
+    padding: 5px 10px;
+    color:white;
+    font-size:15px;
+}
+.secure{
+    margin-top:20px;
+    width:100%;
+    display:flex;
+    background: #221f1f;
+    border-radius:5px;
+    align-items:center;
+}
+.pass{
+    width:100%;
+    height: 40px;
+    border-radius:5px;
+    background: transparent;
+    border: none;
+    outline:none;
+    padding: 5px 10px;
+    color:white;
+    font-size:15px;
+}
+.show{
+    color: gray;
+    font-size:13px;
+    padding-right:15px;
+}
+.sign{
+    width:100%;
+    padding:15px 0 15px 0;
+    font-size:15px;
+    font-weight:500;
+    margin-top:20px;
+    background:#E50914 ;
+    border:none;
+    border-radius:5px;
+    color:white;
+}
+.quick-links{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:20px;    
+}
+.checkbox{
+    margin-left:10px;
+    display:flex;
+    align-items:center;
+}
+.help{
+    margin-right:10px;
+}
+.help a{
+    color:rgba(255,255,255,0.7);
+    text-decoration:none;
+    font-size:15px;
+}
+.checkbox label{
+    color:rgba(255,255,255,0.7);
+}
+.checkbox input[type=checkbox]{
+    background:transparent;
+}
+.new{
+    margin: 35px 10px 10px 18px;
+}
+.new p{
+   color:rgba(255,255,255,0.7);
+}
+.new a{
+    text-decoration:none;
+    color:white;
+}
+.privacy{
+    margin:5px 10px 50px 18px;
+}
+.privacy p{
+    color:rgba(255,255,255,0.7);
+    font-size:14px;
+}
+.privacy a{
+    text-decoration:none;
+    color:#006cff;
+    font-size:14px;
+}
+.footer{
+    background: black;
+    width: 100%;
+    height: auto;
+    border-top:5px solid #221f1f;
+}
+.footer p{
+    color:rgba(255,255,255,0.7);
+    padding:20px;
+}
+.footer p a{
+    color:rgba(255,255,255,0.7);
+}
